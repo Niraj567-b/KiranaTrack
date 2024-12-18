@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 
 <!doctype html>
 <html lang="en">
@@ -14,11 +15,11 @@
 <body>
 
   {% block Content %}
-  <div class="hero text-white text-center py-5 mt-3 rounded-4" style="background-color: #391439;">
+  <div class="hero text-white text-center py-5 mt-3 rounded-4" style="background-color: 	#181818;">
     <div class="container">
-      <h1 class="display-1">Welcome to Kirana Store</h1>
-      <p>You are one step ahead to get all the grocery for months and pay at the end of month..</p>
-      <p>Contact Us to become our valuable Customer and avail the benefit.</p>
+      <h1 class="display-1 fw-medium">Welcome to Kirana Store</h1>
+      <p class="fw-light fs-5">You are one step ahead to get all the grocery for months and pay at the end of month..</p>
+      <p class="fw-light fs-5">Contact Us to become our valuable Customer and avail the benefit.</p>
       <a href="#services" class="btn btn-light btn-lg">Contact Us</a>
     </div>
   </div>
@@ -66,8 +67,8 @@
         <p>Get a fresh and great quality product any time by visiting our store or get home delivery any time any where,
           pay at the end of evey months...</p>
       </div>
-      <div class="col-lg-6">
-        <img src="https://via.placeholder.com/500x300" alt="Store Image" class="img-fluid rounded">
+      <div class="col-lg-5">
+        <img src="{% static 'images/grocery.jpg' %}" alt="Store Image" class="img-fluid rounded">
       </div>
     </div>
   </section>
