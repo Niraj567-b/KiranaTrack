@@ -18,7 +18,8 @@
   <div class="hero text-white text-center py-5 mt-3 rounded-4" style="background-color: 	#181818;">
     <div class="container">
       <h1 class="display-1 fw-medium">Welcome to Kirana Store</h1>
-      <p class="fw-light fs-5">You are one step ahead to get all the grocery for months and pay at the end of month..</p>
+      <p class="fw-light fs-5">You are one step ahead to get all the grocery for months and pay at the end of month..
+      </p>
       <p class="fw-light fs-5">Contact Us to become our valuable Customer and avail the benefit.</p>
       <a href="#services" class="btn btn-light btn-lg">Contact Us</a>
     </div>
@@ -84,13 +85,16 @@
         <div class="carousel-item active">
           <div class="row">
             <div class="col-md-4">
-              <img src="https://via.placeholder.com/400x300" alt="Product Image" class="img-fluid rounded mb-4">
+              <img src="{% static 'images/store-1.jpg' %}" alt="Product Image"
+                class="d-block w-100 h-100 object-fit-cover mb-4">
             </div>
             <div class="col-md-4">
-              <img src="https://via.placeholder.com/400x300" alt="Product Image" class="img-fluid rounded mb-4">
+              <img src="{% static 'images/store-2.jpg' %}" alt="Product Image"
+                class="d-block w-100 h-100 object-fit-cover mb-4">
             </div>
             <div class="col-md-4">
-              <img src="https://via.placeholder.com/400x300" alt="Product Image" class="img-fluid rounded mb-4">
+              <img src="{% static 'images/store-3.jpg' %}" alt="Product Image"
+                class="d-block w-100 h-100 object-fit-cover mb-4">
             </div>
           </div>
         </div>
@@ -99,13 +103,16 @@
         <div class="carousel-item">
           <div class="row">
             <div class="col-md-4">
-              <img src="https://via.placeholder.com/400x300" alt="Product Image" class="img-fluid rounded mb-4">
+              <img src="{% static 'images/store-4.jpg' %}" alt="Product Image"
+                class="d-block w-100 h-100 object-fit-cover mb-4">
             </div>
             <div class="col-md-4">
-              <img src="https://via.placeholder.com/400x300" alt="Product Image" class="img-fluid rounded mb-4">
+              <img src="{% static 'images/store-5.jpg' %}" alt="Product Image"
+                class="d-block w-100 h-100 object-fit-cover mb-4">
             </div>
             <div class="col-md-4">
-              <img src="https://via.placeholder.com/400x300" alt="Product Image" class="img-fluid rounded mb-4">
+              <img src="{% static 'images/store-3.jpg' %}" alt="Product Image"
+                class="d-block w-100 h-100 object-fit-cover mb-4">
             </div>
           </div>
         </div>
@@ -114,13 +121,16 @@
         <div class="carousel-item">
           <div class="row">
             <div class="col-md-4">
-              <img src="https://via.placeholder.com/400x300" alt="Product Image" class="img-fluid rounded mb-4">
+              <img src="{% static 'images/store-4.jpg' %}" alt="Product Image"
+                class="d-block w-100 h-100 object-fit-cover mb-4">
             </div>
             <div class="col-md-4">
-              <img src="https://via.placeholder.com/400x300" alt="Product Image" class="img-fluid rounded mb-4">
+              <img src="{% static 'images/store-1.jpg' %}" alt="Product Image"
+                class="d-block w-100 h-100 object-fit-cover mb-4">
             </div>
             <div class="col-md-4">
-              <img src="https://via.placeholder.com/400x300" alt="Product Image" class="img-fluid rounded mb-4">
+              <img src="{% static 'images/store-2.jpg' %}" alt="Product Image"
+                class="d-block w-100 h-100 object-fit-cover mb-4">
             </div>
           </div>
         </div>
@@ -128,15 +138,14 @@
 
       <!-- Controls for Previous and Next -->
       <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
   </section>
 
   {% endblock %}
